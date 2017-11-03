@@ -35,6 +35,18 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.25</version>
         </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.2.3</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -45,7 +57,7 @@
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
-                    <encoding>utf8</encoding>
+                    <encoding>utf-8</encoding>
                 </configuration>
             </plugin>
             <plugin>
